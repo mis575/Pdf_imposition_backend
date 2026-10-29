@@ -22,5 +22,6 @@ router.post("/:jobId/validate", validateProductionPdf);
 router.post("/:jobId/crop", cropProductionPdf);
 router.get("/:jobId/source", getSourcePdf);
 router.get("/:jobId/output", getOutputPdf);
+router.get("/:jobId/download", getOutputPdf);
 
 export default router;
